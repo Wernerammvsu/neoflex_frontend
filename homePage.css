@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;700&display=swap');
 
+
 body {
     margin: 0 auto;
     font-family: 'Ubuntu', sans-serif;
@@ -73,19 +74,178 @@ button {
     text-align: center;  
     color: #FFFFFF;
 }
-.course-map {
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+.features-title{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: #0B132A;
+    margin-top: 74px;
+}
+
+.features-description{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4F5665;
+}
+
+.features-item{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4F5665;
+}
+
+.rate {
     background: linear-gradient(#F2F1F5 5%, #F2F1F5,#CACACA);
     background: linear-gradient(#F2F1F5 5%, #F2F1F5 5%,#CACACA);
     background: linear-gradient(#F2F1F5 5%, #F2F1F5 15%,#CACACA);
     background: linear-gradient(#F2F1F5 15%, #CACACA);
     background: linear-gradient(#F2F1F5,#CACACA);
     border-radius: 28px;
+    height: 302px;
+    padding: 32px;
 }
-.features {
+
+.rating{
+    
     display: flex;
     justify-content: space-between;
 }
+
+.rate-title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+.rate-description {
+    font-weight: 500;
+    font-size: 16px;
+}
+.currency {
+    font-weight: 500;
+    font-size: 20px;
+}
+.rate-table {
+    display: flex;
+    justify-content: space-between;
+}
+.rate-item{
+    font-weight: 700;
+    font-size: 20px;
+    color: #808080;
+}
+.rate-value{
+    font-weight: 700;
+    font-size: 20px;
+}
+.all-courses{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+.map-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1C1C1C;
+    text-align: center;
+}
+.map-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1C1C1E;
+    text-align: center;
+}
+.news-title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+    text-align: center;
+}
+.news-description {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2D3748;
+    text-align: center;
+}
+.news-items{
+    display: flex;
+    justify-content: space-between;
+}
+.news-item {
+    border-radius: 28px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2), 0px 0px 4px rgba(0, 0, 0, 0.08);
+    width: 320px;
+    height: 448px;
+}
+.news-item-title {
+
+}
+.news-item-description {
+
+}
+
+.arrows {
+    float: right;
+}
+.support {
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #EB801D;
+    text-align: center;
+}
+.subscribe {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1C1C1E;
+    text-align: center;
+}
+
+.bank-news {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1C1C1E;
+    text-align: center;
+}
+.email-form {
+    height: 46px;
+    padding: 22px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 481px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.email-input-form {
+    background: transparent;
+    border: none;
+
+}
+.subscribe-button {
+    border-radius: 20px;
+    background-color: #686DF1;
+    display: flex;
+    height: 45px;
+    width: 161px;
+}
+.subscribe-button-text {
+    margin: auto;
+    color: #FFFFFF;
+}
+.subscribe-button-image {
+    margin-left: 4px;
+}
 footer{
+    margin-top: 90px;
     background-color: #E7E7E7;
     
 }
