@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;700&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #F5F4FF;
+}
+
+.content {
+    margin: 0 auto;
+    background-color: #F5F4FF;
+    width: 1300px;  /* заменить */
+    
+}
+
+header {
+    margin: 0 auto;
+    height: 64px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav {
+    margin: auto;;
+}
+
+button { 
+    font-weight: 700;
+    font-size: 16px;
+    color: #1D1929;
+    border: none;
+    background-color: transparent;  
+}
+
+.logo {
+    color: #B4387A;
+    font-size: 24px;
+}
+
+.online-bank {
+    margin: auto 0;
+    background-color: #003CFF;
+    width: 128px;
+    height: 50px;
+    border-radius: 16px;
+    padding: 8px;
+    text-align: center;  
+    color: #FFFFFF;
+}
+
+.choose-card {
+    margin-top: 132px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.card-design {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 48px;
+    color: #1C1C1E;
+    width: 609px;
+}
+/* проверить расстояния */
+.choose-card-button {
+    height: 50px;
+    width: 160px;
+    border-radius: 16px;
+    padding: 8px;
+    background-color: #003CFF;
+    text-align: center;  
+    color: #FFFFFF;
+}
+.course-map {
+    background: linear-gradient(#F2F1F5 5%, #F2F1F5,#CACACA);
+    background: linear-gradient(#F2F1F5 5%, #F2F1F5 5%,#CACACA);
+    background: linear-gradient(#F2F1F5 5%, #F2F1F5 15%,#CACACA);
+    background: linear-gradient(#F2F1F5 15%, #CACACA);
+    background: linear-gradient(#F2F1F5,#CACACA);
+    border-radius: 28px;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: #E7E7E7;
+    
+}
+
+.footer-content{
+    width: 1300px;
+    margin: 0 auto;
+}
+.white-line {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    border: none;
+    height: 2px;
+}
