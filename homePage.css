@@ -194,6 +194,7 @@ button {
 
 .arrows {
     float: right;
+    padding-top: 8px;
 }
 .support {
     padding-top: 40px;
@@ -244,15 +245,54 @@ button {
 .subscribe-button-image {
     margin-left: 4px;
 }
-footer{
+footer {
     margin-top: 90px;
     background-color: #E7E7E7;
     
 }
 
-.footer-content{
+.footer-content {
     width: 1300px;
     margin: 0 auto;
+}
+.contacts {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-neoflex {
+    height: 50px;
+    margin: auto 0;
+}
+.phone {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+}
+.email-contact{
+    float: left;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2D3748;
+    text-align: center;
+}
+.links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.cookies {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2D3748;
+    padding-bottom: 90px;
 }
 .white-line {
     color: #FFFFFF;
