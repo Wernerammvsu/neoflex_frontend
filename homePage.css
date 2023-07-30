@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;700&display=swap');
 
 
 body {
     margin: 0 auto;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
     background-color: #F5F4FF;
 }
 
@@ -18,13 +18,27 @@ header {
     margin: 0 auto;
     height: 64px;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
     display: flex;
     justify-content: space-between;
 }
-
+button {
+    cursor: pointer;
+}
 
 nav {
     margin: auto;;
+}
+
+li{
+    list-style-type: none;
+}
+.header-list {
+    display: inline;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
 }
 
 button { 
@@ -64,6 +78,7 @@ button {
     color: #1C1C1E;
     width: 609px;
 }
+
 /* проверить расстояния */
 .choose-card-button {
     height: 50px;
@@ -74,7 +89,9 @@ button {
     text-align: center;  
     color: #FFFFFF;
 }
-
+.cart-images {
+    display: flex;
+}
 .features {
     display: flex;
     justify-content: space-between;
@@ -131,7 +148,6 @@ button {
 }
 .currency {
     padding-top: 24px;
-    padding-bottom: 24px;
     margin: 0px;
     font-weight: 500;
     font-size: 20px;
@@ -140,11 +156,21 @@ button {
     display: flex;
     justify-content: space-between;
 }
+.rate-ul {
+    padding: 0;
+}
+.rate-items-line {
+    display: flex;
+    padding-top: 32px;
+}
+.rate-items-paar {
+    width: 151px;
+}
 .rate-item{
     font-weight: 700;
     font-size: 20px;
     color: #808080;
-    padding-right: 6px;
+    padding-right: 20px;
 }
 .rate-value{
     font-weight: 700;
@@ -168,6 +194,10 @@ button {
     font-weight: 500;
     color: #1C1C1E;
     text-align: center;
+}
+.map-image {
+    display: block;
+    margin: auto;
 }
 .news-title{
     font-size: 30px;

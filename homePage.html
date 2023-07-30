@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="homePage.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="homePage.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
 </head>
 <body>
     <div class="content">
         <header>
-            <button class="logo">NeoBank</button>
+            <a class="logo" href="homePage.html">NeoBank</a>
             <nav>
-                <button>Credit card</button>
-                <button>Product</button>
-                <button>Account</button>
-                <button>Resources</button>
+                <ul>
+                    <li class="header-list"><a class="" href="#">Credit card</a></li>
+                    <li class="header-list"><a class="" href="#">Product</a></li>
+                    <li class="header-list"><a class="" href="#">Account</a></li>
+                    <li class="header-list"><a class="" href="#">Resources</a></li>
+                </ul>
             </nav>
             <button class="online-bank">
                 OnlineBank
@@ -33,40 +35,40 @@
                     Choose the card
                 </button>
             </div>
-            <table>
-                <tr>
-                    <td><img src="assets/images/cardImage1.png" alt="cardImage1"></td>
-                    <td><img src="assets/images/cardImage2.png" alt="cardImage2"></td>
-                </tr>
-                <tr>
-                    <td><img src="assets/images/cardImage3.png" alt="cardImage3"></td>
-                    <td><img src="assets/images/cardImage4.png" alt="cardImage4"></td>
-                </tr>
-            </table>
+            <div class="cart-images">
+                <div>
+                    <figure><img src="assets/images/cardImage1.png" alt="cardImage1"></figure>
+                    <figure><img src="assets/images/cardImage2.png" alt="cardImage2"></figure>
+                </div>
+                <div>
+                    <figure><img src="assets/images/cardImage3.png" alt="cardImage3"></figure>
+                    <figure><img src="assets/images/cardImage4.png" alt="cardImage4"></figure>
+                </div>
+            </div>
         </section>
         <section class="features">
             <img src="assets/images/Illustration2.svg" alt="human with laptop">
             <div>
                 <p class="features-title">We Provide Many Features You Can Use</p>
                 <p class="features-description">You can explore the features that we provide with fun and have their own functions each feature</p>
-                <table>
-                    <tr>
-                        <td><img src="assets/images/bx_bxs-check-circle.png" alt="check-circle"></td>
-                        <td class="features-item">Powerfull online protection.</td>
-                    </tr>
-                    <tr>
-                        <td><img src="assets/images/bx_bxs-check-circle.png" alt="check-circle"></td>
-                        <td class="features-item">Cashback without borders.</td>
-                    </tr>
-                    <tr>
-                        <td><img src="assets/images/bx_bxs-check-circle.png" alt="check-circle"></td>
-                        <td class="features-item">Personal design</td>
-                    </tr>
-                    <tr>
-                        <td><img src="assets/images/bx_bxs-check-circle.png" alt="check-circle"></td>
-                        <td class="features-item">Work anywhere in the world</td>
-                    </tr>
-                </table>
+                <ul>
+                    <li>
+                        <img src="assets/images/bx_bxs-check-circle.png" alt="check-circle">
+                        <span class="features-item">Powerfull online protection.</span>
+                    </li>
+                    <li>
+                        <img src="assets/images/bx_bxs-check-circle.png" alt="check-circle">
+                        <span class="features-item">Cashback without borders.</span>
+                    </li>
+                    <li>
+                        <img src="assets/images/bx_bxs-check-circle.png" alt="check-circle">
+                        <span class="features-item">Personal design</span>
+                    </li>
+                    <li>
+                        <img src="assets/images/bx_bxs-check-circle.png" alt="check-circle">
+                        <span class="features-item">Work anywhere in the world</span>
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="rate">
@@ -76,24 +78,36 @@
             </div>
             <p class="currency">Currency</p>
             <div class="rate-table">
-                <table>
-                    <tr>
-                        <td class="rate-item">USD:</td>
-                        <td class="rate-value">60.78</td>
-                        <td class="rate-item">CNY:</td>
-                        <td class="rate-value">9.08</td>
-                        <td class="rate-item">CHF:</td>
-                        <td class="rate-value">64.78</td>
-                    </tr>
-                    <tr>
-                        <td class="rate-item">USD:</td>
-                        <td class="rate-value">60.78</td>
-                        <td class="rate-item">JPY:</td>
-                        <td class="rate-value">0.46</td>
-                        <td class="rate-item">TRY:</td>
-                        <td class="rate-value">3.39</td>
-                    </tr>
-                </table>
+                <ul class="rate-ul">
+                    <li class="rate-items-line">
+                        <div class="rate-items-paar">
+                            <span class="rate-item">USD:</span>
+                            <span class="rate-value">60.78</span>
+                        </div>
+                        <div class="rate-items-paar">
+                            <span class="rate-item">CNY:</span>
+                            <span class="rate-value">9.08</span>
+                        </div>
+                        <div class="rate-items-paar">
+                            <span class="rate-item">CHF:</span>
+                            <span class="rate-value">64.78</span>
+                        </div>
+                    </li>
+                    <li class="rate-items-line">
+                        <div class="rate-items-paar">
+                            <span class="rate-item">USD:</span>
+                            <span class="rate-value">60.78</span>
+                        </div>
+                        <div class="rate-items-paar">
+                            <span class="rate-item">JPY:</span>
+                            <span class="rate-value">0.46</span>
+                        </div>
+                        <div class="rate-items-paar">
+                            <span class="rate-item">TRY:</span>
+                            <span class="rate-value">3.39</span>
+                        </div>
+                    </li>
+                </ul>
                 <img src="assets/images/Bank.png" alt="Bank">
             </div>
             <button class="all-courses">All courses</button>
@@ -101,8 +115,9 @@
         <section>
             <p class="map-title">You can use our services anywhere in the world</p>
             <p class="map-description">Withdraw and transfer money online through our application</p>
-            <img src="assets/images/HugeGlobal.png" alt="map">
+            <img class="map-image" src="assets/images/HugeGlobal.png" alt="map">
         </section>
+        <!--
         <section>
             <p class="news-title">Current news from the world of finance</p>
             <p class="news-description">We update the news feed every 15 minutes. You can learn more by clicking on the news you are interested in.</p>
@@ -136,28 +151,31 @@
             </div>
             <img src="assets/images/Group 1307.png" alt="Arrows" class="arrows">
         </section>
+        -->
         <section>
             <p class="support">Support</p>
             <p class="subscribe">Subscribe Newsletter & get</p>
             <p class="bank-news">Bank News</p>
-            <div class="email-form">
+            <form class="email-form">
                 <img src="assets/images/email.svg" alt="Email">
                 <input type="email" placeholder="Your email" class="email-input-form">
                 <button class="subscribe-button">
                     <img src="assets/images/send 1.svg" alt="Send" class="subscribe-button-image">
                     <div class="subscribe-button-text">Subscribe</div>
                 </button>
-            </div>
+            </form>
 
         </section>
     </div>
     <footer>
         <div class="footer-content">
             <div class="contacts">
-                <img src="assets/images/logo1.png" alt="logo-neoflex" class="logo-neoflex">
+                <a href="#">
+                    <img src="assets/images/logo1.png" alt="logo-neoflex" class="logo-neoflex">
+                </a>
                 <div>
-                    <p class="phone">+7 (495) 984 25 13</p>
-                    <div class="email-contact">info@neoflex.ru</div>
+                    <a href="tel:+74959842513" class="phone">+7 (495) 984 25 13</a>
+                    <a href="mailto:info@neoflex.ru" class="email-contact">info@neoflex.ru</a>
                 </div>
             </div>
             <div class="links">
